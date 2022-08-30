@@ -1,0 +1,7 @@
+<h1>Seja Bem Vinda a DesenvolvendoMe</h1>
+<p>Ensinamos como alcançar em 6 meses um salário de R$5k como programador, independemente de linguagens</p>
+<ol>
+  <% Student.all.each do |student| %>
+    <li><%= student.name %></li>
+  <% end %>
+</ol>
